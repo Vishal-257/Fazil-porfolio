@@ -1,0 +1,25 @@
+@media screen and (max-width:450px)
+{
+#nav{
+        height: 145px;
+        width: 100vw;
+        display: flex;
+        align-items:center;
+        position: absolute;
+        padding: 0 120px;
+        gap:45px;
+        z-index: 99;
+        justify-content: flex-start;
+    }
+    #nav h4{
+        font-weight: 500;
+    } 
+    video{
+    
+        height: 100%;
+        width: 100vw;
+        object-fit: cover;
+        position: fixed;
+        z-index: -1;
+    }
+}
